@@ -39,7 +39,7 @@ class CateController extends Controller {
         LEFT JOIN favoritos f ON  (p.id = f.product_id and  f.user_id = "'.$user_id.'" and f.deleted_at is null)
         where i.deleted_at is null
         and i.main_image = 1
-        and p.category_id = "'.$id.'"
+        and p.propietie_type_id = "'.$id.'"
         and p.deleted_at is  null
         and p.visible = 1
         GROUP BY p.id

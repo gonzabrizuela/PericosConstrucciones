@@ -1,6 +1,6 @@
 <nav class="navbar pl-3 navbar-expand-lg navbar-light bg-white fixed-top" id="mainNav">
-  <!-- <a class="navbar-brand" href="{{route('home')}}"><img src="uploads/logo.png" style="height:60px;"alt=""> Pericos Construcciones</a> -->
-  <a class="navbar-brand" href="{{route('home')}}"><img src="uploads/slider-03.jpg" style="height:90px;"alt=""> </a>
+  <a class="navbar-brand" href="{{route('home')}}"> Pericos Construcciones</a> 
+  <!-- <a class="navbar-brand" href="{{route('home')}}"><img src="uploads/slider-03.jpg" style="height:90px;"alt=""> </a> -->
 
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -20,7 +20,7 @@
               </a>
           </li>
           <li class="nav-item " data-toggle="tooltip" data-placement="right" title="Home">
-              <a class="nav-link " href="{{route('home')}}">
+              <a class="nav-link " href="{{route('projects')}}">
               <i class="fas fa-building"></i><span class="ml-2 nav-link-text"  >Proyectos</span>
               </a>
           </li>

@@ -29,6 +29,8 @@ Route::resource('reset', 'frontend\NewPasswordController');
 Route::resource('register', 'frontend\RegisterController');
 // Route::resource('company', 'frontend\CompanyController');
 Route::get('company', 'frontend\CompanyController@index')->name('company');
+Route::get('projects', 'frontend\ProjectsController@index')->name('projects');
+
 
 Route::get('category/{id}', 'frontend\CateController@index')->name('cate');
 Route::get('subcategory/{id}', 'frontend\SubController@index')->name('sub');
