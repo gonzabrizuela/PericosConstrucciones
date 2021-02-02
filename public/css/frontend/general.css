@@ -1,0 +1,649 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body
+{
+    background: #F3F3F3;
+}
+
+.top
+{
+    position: fixed;
+    width: calc(100% - 50px);
+    height: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #000;
+}
+
+.top .logo
+{
+    float: left;
+    height: 40px;
+    width: auto;
+}
+
+.top .menu
+{
+    float: right;
+    height: 40px;
+    width: auto;
+}
+
+.top .menu .search
+{
+    float: right;
+    height: 40px;
+    width: auto;
+    margin-left: 20px;
+}
+
+.top .menu a
+{
+    float: right;
+    height: 40px;
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 16px;
+    line-height: 40px;
+    color: #FFF;
+    text-decoration: none;
+}
+.top .menu a:hover
+{
+    text-decoration: underline;
+}
+
+.top .menu .active
+{
+    color: #aa1051;
+    text-decoration: none;
+}
+.top .menu .active:hover
+{
+    text-decoration: none;
+}
+
+.section
+{
+    float: left;
+    width: calc(100% - 50px);
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+.section .header
+{
+    float: left;
+    width: 100%;
+    height: 50px;
+}
+
+.section .main_title
+{
+    float: left;
+    width: calc(100% - 70px);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+
+.section .see_all
+{
+    float: right;
+    margin-top: 11px;
+    color: #aa1051;
+    font-size: 11px;
+    font-weight: 700;
+}
+.section .see_all:hover
+{
+    color: #6b1338;
+}
+
+.section .col_left
+{
+    float: left;
+    width: 50%;
+}
+
+.section .col_left .social_tensions
+{
+    float: left;
+    margin-bottom: 10px;
+    width: calc(100% - 20px);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #FFF;
+    border-radius: 4px;
+    border: 1px solid #CCC;
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.3);
+}
+
+.section .col_left .social_tensions .text
+{
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+}
+
+.section .col_left .social_tensions .big_access
+{
+    float: left;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.section .col_left .social_tensions .big_access .btn
+{
+    width: calc(50% - 3px);
+    height: 110px;
+    border-radius: 5px;
+    margin-bottom: 6px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.section .col_left .social_tensions .big_access .btn:nth-child(odd)
+{
+    float: left;
+}
+
+.section .col_left .social_tensions .big_access .btn:nth-child(even)
+{
+    float: right;
+}
+
+.section .col_left .social_tensions .big_access span
+{
+    padding-top: 40px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.section .col_left .social_tensions .big_access img
+{
+    padding-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.section .col_left .makro_trends
+{
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.section .col_right
+{
+    float: right;
+    width: calc(50% - 20px);
+}
+
+.section .col_right .tasks
+{
+    float: left;
+    margin-bottom: 10px;
+    width: calc(100% - 50px);
+    padding: 25px;
+    background-color: #FFF;
+    border-radius: 4px;
+    border: 1px solid #CCC;
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.3);
+}
+
+.section .tasks .row
+{
+    float: left;
+    width: 100%;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #CCC;
+    font-size: 11px;
+}
+.section .tasks .row:first-child
+{
+    padding-bottom: 0;
+    border-bottom: 0;
+    font-weight: 700;
+}
+
+.section .tasks .row .col
+{
+    float: left;
+    padding-right: 30px;
+}
+.section .tasks .row .col.n1
+{
+    width: 50px;
+}
+.section .tasks .row .col.n2
+{
+    width: calc(100% - 304px);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.section .tasks .row .col.n3
+{
+    width: 84px;
+}
+.section .tasks .row .col.n4
+{
+    width: 80px;
+    padding-right: 0;
+}
+.section .tasks .row .col.n4 .icon
+{
+    cursor: pointer;
+}
+
+.pop_task
+{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.pop_task .background
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: .3;
+}
+
+.pop_task .task
+{
+    position: fixed;
+    width: 700px;
+    height: 432px;
+    left: calc(50% - 350px);
+    right: calc(50% - 350px);
+    top: calc(50% - 216px);
+    bottom: 10%;
+    background-color: #FFF;
+    border-radius: 6px;
+}
+
+.pop_task .task .close_c
+{
+    float: left;
+    width: calc(100% - 40px);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #CCC;
+    margin-bottom: 20px;
+}
+
+.pop_task .task .close_c .close
+{
+    float: right;
+    font-size: 18px;
+    color: #555;
+    cursor: pointer;
+    cursor: pointer;
+    text-decoration: none;
+}
+.pop_task .task .close_c .close:hover
+{
+    color: #000;
+}
+
+.pop_task .task .title
+{
+    float: left;
+    width: calc(100% - 40px);
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.pop_task .task .content
+{
+    float: left;
+    width: calc(100% - 40px);
+    height: 328px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.pop_task .task .content .row
+{
+    float: left;
+    width: calc(100% - 50px);
+    margin-bottom: 30px;
+    padding-left: 50px;
+    background-repeat: no-repeat;
+    background-position: top left;
+    min-height: 35px;
+}
+.pop_task .task .content .row.description
+{
+    background-image: url(/images/frontend/general/tasks/icon_description.png);
+}
+.pop_task .task .content .row.files
+{
+    background-image: url(/images/frontend/general/tasks/icon_files.png);
+}
+.pop_task .task .content .row.items
+{
+    background-image: url(/images/frontend/general/tasks/icon_items.png);
+}
+
+.content .row .sub_title
+{
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+}
+
+.content .row .text
+{
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+}
+
+/*files*/
+.pop_task .task .content .row.files .item
+{
+    float: left;
+    width: 100%;
+}
+
+.pop_task .task .content .row.files a
+{
+    color: #555;
+    font-size: 14px;
+    line-height: 17px;
+    cursor: pointer;
+}
+
+.pop_task .task .content .row.files a:hover
+{
+    color: #000;
+}
+
+.pop_task .task .content .row.files .delete
+{
+    cursor: pointer;
+    color: #e32626;
+    font-weight: 400;
+    font-size: 11px;
+    font-style: italic;
+    margin-left: 5px;
+}
+
+/*items*/
+.pop_task .task .content .row.items .progress
+{
+    float: left;
+    width: 50%;
+    height: 8px;
+    margin-right: calc(50% - 2px);
+    margin-bottom: 20px;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.pop_task .task .content .row.items .progress .bar
+{
+    float: left;
+    height: 8px;
+    background-color: #39b54a;
+    border-radius: 4px;
+}
+
+.pop_task .task .content .row.items .item
+{
+    float: left;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.pop_task .task .content .row.items .item .check
+{
+    float: left;
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-size: 100% 200%;
+    background-image: url(/images/frontend/general/tasks/check.png);
+    cursor: pointer;
+}
+
+.pop_task .task .content .row.items .item .text
+{
+    float: left;
+    width: calc(100% - 28px);
+    font-size: 14px;
+    line-height: 18px;
+}
+
+/* comments */
+
+.pop_task .task .content .row.comments
+{
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+    padding-left: 0;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.pop_task .task .content .row.comments .comment
+{
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.pop_task .task .content .row.comments .comment .initials
+{
+    float: left;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 35px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #FFF;
+    margin-right: 15px;
+}
+
+.pop_task .task .content .row.comments .comment .name
+{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.pop_task .task .content .row.comments .comment .name .date
+{
+    color: #CCC;
+    font-weight: 400;
+    font-size: 11px;
+    font-style: italic;
+    margin-left: 5px;
+}
+
+.pop_task .task .content .row.comments .comment .name .delete
+{
+    cursor: pointer;
+    color: #e32626;
+    font-weight: 400;
+    font-size: 11px;
+    font-style: italic;
+    margin-left: 5px;
+}
+
+.pop_task .task .content .row.comments .add
+{
+    float: left;
+    padding: 15px;
+    width: calc(100% + 10px);
+    background-color: #e5f1fc;
+    margin-left: -20px;
+    margin-bottom: -30px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.pop_task .task .content .row.comments .add .initials
+{
+    float: left;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 35px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #FFF;
+    margin-right: 15px;
+}
+
+.pop_task .task .content .row.comments .add .new_comment
+{
+    float: left;
+    width: calc(100% - 72px);
+    min-width: calc(100% - 72px);
+    max-width: calc(100% - 72px);
+    border: 1px solid #CCC;
+    padding: 10px;
+    height: 40px;
+    min-height: 40px;
+    max-height: 40px;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.pop_task .task .content .row.comments .add .btn
+{
+    float: right;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: #aa1051;
+    font-size: 11px;
+    font-weight: 700;
+    color: #FFF;
+    text-align: center;
+    width: 110px;
+    cursor: pointer;
+}
+
+.pop_task .task .content .row.comments .add .btn:hover
+{
+    background-color: #6b1338;
+}
+
+.pop_task .task .content .row.comments .add .attach
+{
+    font-size: 12px;
+    font-weight: 400;
+    float: right;
+    margin-right: 20px;
+    margin-top: 13px;
+    background-image: url(/images/frontend/general/tasks/attach.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding-left: 16px;
+    height: 20px;
+    line-height: 20px;
+    background-size: auto 100%;
+    color: #555;
+    cursor: pointer;
+}
+
+.pop_task .task .content .row.comments .add .attach:hover
+{
+    color: #000;
+}
+
+.pop_task .task .content .row.comments .add .attach_text
+{
+    font-size: 12px;
+    font-weight: 400;
+    float: right;
+    margin-right: 20px;
+    margin-top: 13px;
+    padding-left: 16px;
+    height: 20px;
+    line-height: 20px;
+    background-size: auto 100%;
+    color: #555;
+}
+
+.attach_text_error {
+    color: rgb(250, 5, 5) !important;
+}
+
+.text_grey
+{
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.text_left
+{
+    float: left;
+    width: calc(50% - 10px);
+}
+
+.text_right
+{
+    float: right;
+    width: calc(50% - 10px);
+}
+
+#ajaxLoader {
+    background:rgba(0,0,0,0.6);
+    cursor: wait;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    display: none;
+}

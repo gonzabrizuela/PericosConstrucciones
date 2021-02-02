@@ -1,0 +1,46 @@
+footer{
+  display: none !important;
+}
+
+.section-name{
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+input{
+  width: 100%;
+  border-radius: 33px;
+  margin-bottom: 15px;
+  padding: 10px 25px;
+  border: 1px solid #cccccc;
+}
+
+.edit-icon{
+  cursor: pointer;
+  color: #000000;
+}
+
+.shop-btn{
+  background-color: #FBB03B;
+  color: #000;
+  border-radius: 30px;
+  padding: 10px 25px;
+  width: 100%;
+  font-size: 12px;
+  font-weight: bold;
+}
+.shop-btn:hover{
+  background-color: #f9ca3b;
+  color: #000;
+}
+
+.btn-confirm{
+  display: none;
+  margin: auto;
+  max-width: 400px;
+}
+
+.is-invalid{
+  border: 1px solid #e80202 !important;
+}

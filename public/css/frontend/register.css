@@ -1,0 +1,79 @@
+footer{
+  display: none !important;
+}
+
+body{
+  box-sizing: border-box;
+}
+
+#form_register input{
+  border-radius: 30px;
+  padding: 10px 25px;
+}
+
+
+#form_register input{
+  border-radius: 30px;
+  padding: 10px 25px;
+  width: 100%;
+}
+
+#form_register button{
+  background-color: #FBB03B;
+  color: #000;
+  border-radius: 30px;
+  padding: 10px 25px;
+  width: 100%;
+}
+
+#form_register button:hover{
+  background-color: #f9ca3b;
+}
+
+#main-container .container{
+  max-width: 600px ;
+}
+
+
+.eye{
+  border-top-right-radius: 30px !important;
+  border-bottom-right-radius:30px !important;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius:0 !important;
+  display: inline-block;
+  border-left: none !important;
+  padding-left:10px ;
+  padding-right: 25px;
+  padding-top:10px ;
+  padding-bottom:10px ;
+  width: 10% !important;
+  height: 46px;
+  float: left;
+  border: 1px solid #ced4da;
+}
+
+#eye-pass{
+  cursor: pointer;
+  color: #555;
+  text-decoration:none;
+}
+
+.input-password{
+  float: left;
+  border-top-left-radius: 30px !important;
+  border-bottom-left-radius:30px !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius:0 !important;
+  display: inline-block;
+  border-right: none !important;
+  padding: 10px 25px; 
+  width: 90% !important;
+}
+@media (orientation: portrait)
+{
+  .input-password{
+ 
+    width: 88% !important;
+  }
+
+}

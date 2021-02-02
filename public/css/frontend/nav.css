@@ -1,0 +1,202 @@
+/*
+    DEMO STYLE
+*/
+
+.text-black{
+    color: #000 !important;
+}
+.header .cart-text{
+    display: none;
+}
+
+.header{
+    width: 100%;
+    display: inline-block !important;
+}
+
+.header .login{
+    display: inline-block ;
+    float: right;
+}
+
+.search-input{
+    padding: 5px 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgba(222, 222, 222, 1);
+    width: 50%;
+}
+.search-input::placeholder { 
+    color: #000;
+    opacity: 1; 
+    font-size: 12.5px;
+  }
+
+.header .search{
+    display: inline-block !important;
+    width: 60%;
+    /* margin-left: 20%; */
+    /* margin-right: 5%; */
+}
+
+.header .search input:focus,.header .search input:active{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgba(222, 222, 222, 1);
+    
+}
+
+
+form .text{
+    margin-right: 0 !important;
+}
+
+.btn-white{
+    background-color: #fff;
+}
+
+.bg-sea{
+    background:#37474f !important;
+    
+}
+
+
+
+
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+body {
+    font-family: 'Muli', sans-serif;
+    background: #fafafa;
+    
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+}
+
+a,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.navbar {
+    padding: 25px 10px !important;
+    background: #fff;
+    
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    
+    
+}
+
+#mainNav .navbar-collapse .navbar-sidenav{
+    margin-top: 90px !important;
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 40px 0;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+
+----------------------------------------------------- */
+
+
+.navbar-sidenav a{
+    color : #FFF !important;
+    font-size: 1.1rem;
+}
+
+.navbar-nav .nav-link,.navbar-brand{
+    color: #000 !important;
+}
+
+.back-to-backend {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+}
+
+
+@media (orientation: portrait){
+
+    #search-form{
+        flex-direction: row-reverse;
+    }
+
+    #nav-search{
+        padding-left: 0 !important;
+    }
+    #mainNav .navbar-collapse .navbar-sidenav{
+        margin-top: 0 !important;
+    }
+
+    .header .search{
+        display: inline-block !important;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .header .search input{
+        width: 86%;
+        
+    }
+    .header .login{
+        
+        display: inline-block !important;
+        float: left;
+        width: 100%;
+        
+    }
+
+    #options-display{
+        display: none !important;
+    }
+
+    .user-icon-responsive{
+        font-size: 25px;
+    }
+
+    .navbar-collapse .container{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .header .cart-text{
+        display: inline-block !important;
+        font-size: 1.1rem;
+        margin-left: .5rem!important;
+    }
+    .nav-item.dropdown.login{
+        margin-left: 0 !important;
+    }
+    
+}
+
+@media (orientation: landscape){
+    .responsive-drop{
+        display: none !important;
+    }
+}

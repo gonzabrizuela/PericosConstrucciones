@@ -1,0 +1,41 @@
+body{
+  box-sizing: border-box;
+  transition: all ease .5s;
+}
+
+.faqs-head{
+  font-size: 20px;
+       
+  font-weight: 800;
+}
+
+.faq:hover a{
+  color: #f0ae1d !important;
+}
+
+.faq a{
+  cursor: pointer;
+  text-decoration: none;
+  color: #000000;
+}
+
+.faq p{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  
+  color: #000000;
+}
+
+.faq p span{
+  font-size: 35px !important;
+}
+
+.faq{
+  margin-top: 20px;
+}
+
+#section-faqs{
+  margin-bottom: 200px;
+}
+

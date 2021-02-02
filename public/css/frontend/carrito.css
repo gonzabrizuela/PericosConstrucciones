@@ -1,0 +1,16 @@
+.discount{
+  background-color:#FF0000 ;
+  border-radius: 15px;
+  color: #fff;
+  padding: 5px 15px;
+  font-size: 15px;
+  width: 55px;
+}
+
+
+#main-container{
+  max-width: 1500px;
+}
+.small-image{
+ cursor: pointer; 
+}

@@ -1,0 +1,35 @@
+#contact_form{
+  width: 90%;
+  max-width: 500px;
+  margin: auto;
+}
+
+#contact_form textarea{
+  width: 100%;
+  padding: 10px 25px;
+  border-radius: 15px;
+  border: 1px solid #cccccc;
+}
+
+ .problem_select{
+   margin-bottom: 20px;
+  border-radius: 33px;
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid #cccccc;
+}
+
+.shop-btn{
+  margin-top: 20px;
+  background-color: #FBB03B;
+  color: #000;
+  border-radius: 30px;
+  padding: 10px 25px;
+  width: 100%;
+  font-size: 12px;
+  font-weight: bold;
+}
+.shop-btn:hover{
+  background-color: #f9ca3b;
+  color: #000;
+}
