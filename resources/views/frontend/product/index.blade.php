@@ -166,7 +166,7 @@
 
         <!--  ambientes-->
         @if(!empty($aProperties_ambients))
-        <div class="characteristcs-div special" style="border: 1px solid #ccc!important; margin-top: 8px;">
+        <div class="characteristcs-div special" style="border: 1px solid #ccc!important; margin-top: 8px;width:700px;">
           <div class="container">
             <h4>Ambientes</h4>
             <div class="row">
@@ -187,7 +187,7 @@
 
         <!--   comodidades-->
         @if(!empty($aProperties_luxuries))
-        <div class="characteristcs-div special " style="border: 1px solid #ccc!important; margin-top: 8px;">
+        <div class="characteristcs-div special " style="border: 1px solid #ccc!important; margin-top: 8px;width:700px;">
           <div class="container">
             <h4>Comodidades</h4>
             <div class="row">

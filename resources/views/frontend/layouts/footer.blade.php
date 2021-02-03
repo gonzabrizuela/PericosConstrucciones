@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-6 left-section">
-        <h2 class="footer-title">E-SHOP</h2>
+        <h2 class="footer-title"><img src="uploads/logo.png" style="height:35px;" alt=""> PERICOS</h2>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus consectetur non tempore laboriosam
           doloremque quod ducimus, e</p>
         <div class="row social-media">
@@ -32,7 +32,7 @@
           <div class="col-md-4 col-12">
             <h4 class="footer-section-title">Contacto</h4>
             @if (empty(Auth::user()->id))
-                <p class="footer-link">soporte@eshop.com.ar</p>
+                <p class="footer-link">contacto@pericosconstrucciones.com</p>
             @else
               <a class="footer-link" href="{{route('contact')}}">Reclamos</a>
             @endif

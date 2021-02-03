@@ -8,6 +8,10 @@
 .header .cart-text{
     display: none;
 }
+#mainNav.navbar-light .navbar-collapse .navbar-sidenav > .nav-item > .nav-link:hover{
+    font-weight: bold;
+}
+
 
 .header{
     width: 100%;

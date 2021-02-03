@@ -24,7 +24,7 @@
 
             <button id="favBtnActive_{{$product->id}}" style="@if(!empty($product->favoritos)) display:block; @else display:none; @endif" class="favBtnActive" onclick="setFavoriteProduct({{$product->id}})"><i  class="fas fa-heart float-right " style="font-size: 20px"></i></button>
             </div>
-            <div class="card-body pl-1 mt-0 pt-1">
+            <div class="card-body pl-1 mt-0 pt-1" style="border: #555555 solid 1px;border-radius: 0px 0px 15px 15px; ">
                 @if ($product->news == 1)
                 <span  class="new font-weight-bold">NUEVO</span>
                 @endif

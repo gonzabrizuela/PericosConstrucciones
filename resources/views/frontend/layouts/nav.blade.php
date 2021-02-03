@@ -21,7 +21,7 @@
           </li>
           <li class="nav-item " data-toggle="tooltip" data-placement="right" title="Home">
               <a class="nav-link " href="{{route('projects')}}">
-              <i class="fas fa-building"></i><span class="ml-2 nav-link-text"  >Proyectos</span>
+              <i class="fas fa-chart-line"></i><span class="ml-2 nav-link-text"  >Proyectos</span>
               </a>
           </li>
           
